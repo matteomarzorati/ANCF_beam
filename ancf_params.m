@@ -17,7 +17,7 @@ p.g = [0; 0; -9.81];  % gravitational acceleration
 
 % specify constraints at the noodle ends
 % (0: free, 1: ball joint; 2: weld joint)
-p.leftCnstr = 0;
-p.rightCnstr = 2;
+p.leftCnstr = 2;
+p.rightCnstr = 0;
 
 end
